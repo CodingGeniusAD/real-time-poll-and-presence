@@ -38,7 +38,7 @@ npm install
 2. Start the integrated Next.js application with WebSocket server:
 
 1. Start the WebSocket server: `npm run ws` (port 3001)
-2. Start Next.js: `npm run dev:next` (port 3000)
+2. Start Next.js: `npm run dev` (port 3000)
 3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ### Testing Multi-tab Sync
@@ -123,7 +123,7 @@ The integrated WebSocket server (`lib/websocket-server.ts`) maintains:
 
 ```bash
 # Next.js only (separate WebSocket server)
-npm run dev:next
+npm run dev
 
 # Separate WebSocket server
 npm run ws  
